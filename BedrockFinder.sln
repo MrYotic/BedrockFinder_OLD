@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedrockFinder", "BedrockFinder\BedrockFinder.csproj", "{F399DFB7-D552-424B-8259-AB9D7F220D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F399DFB7-D552-424B-8259-AB9D7F220D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F399DFB7-D552-424B-8259-AB9D7F220D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F399DFB7-D552-424B-8259-AB9D7F220D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F399DFB7-D552-424B-8259-AB9D7F220D02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7026431-6CE6-4125-B638-2E1F583E4069}
+	EndGlobalSection
+EndGlobal
