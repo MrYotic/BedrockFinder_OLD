@@ -120,7 +120,7 @@ namespace BedrockFinder
 
         }
 
-        private void panel10_Paint(object sender, PaintEventArgs e)
+        private void panel10_Click(object sender, EventArgs e)
         {
 
         }
@@ -177,8 +177,7 @@ namespace BedrockFinder
                     g.DrawImage(new BlockImage().BlockDrawing(new BlockImage().stoneColor), new Point(16 * index.X, 16 * index.Y));
                     blockCoordsArray[levelIndex, index.X, index.Y] = new BlockCoord() { block = false, coordinates = coordinates };
                 }
-            }
-       
+            }       
         }
 
         private void DrawingGrid()
@@ -200,7 +199,7 @@ namespace BedrockFinder
 
         }
 
-        private void panel9_Paint(object sender, PaintEventArgs e)
+        private void panel9_Click(object sender, EventArgs e)
         {
 
         }
@@ -223,6 +222,16 @@ namespace BedrockFinder
                 penType = "bedrock";
                 graphics.DrawImage(new BlockImage().DrawingPen(new BlockImage().bedrockColor), 0, 0);
             }
+        }
+
+        private void panel11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel12_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

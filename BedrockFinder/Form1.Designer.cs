@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -72,7 +73,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.panel6 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -98,6 +98,17 @@
             this.panel1.Size = new System.Drawing.Size(800, 424);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.panel6.Location = new System.Drawing.Point(493, 241);
+            this.panel6.Margin = new System.Windows.Forms.Padding(0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(32, 32);
+            this.panel6.TabIndex = 9;
+            this.panel6.Click += new System.EventHandler(this.panel6_Click);
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // panel8
             // 
@@ -192,6 +203,7 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(40, 40);
             this.panel12.TabIndex = 11;
+            this.panel12.Click += new System.EventHandler(this.panel12_Click);
             // 
             // panel11
             // 
@@ -201,6 +213,7 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(40, 40);
             this.panel11.TabIndex = 10;
+            this.panel11.Click += new System.EventHandler(this.panel11_Click);
             // 
             // panel10
             // 
@@ -210,7 +223,7 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(40, 40);
             this.panel10.TabIndex = 9;
-            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
+            this.panel10.Click += new System.EventHandler(this.panel10_Click);
             // 
             // panel9
             // 
@@ -220,6 +233,7 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(40, 40);
             this.panel9.TabIndex = 8;
+            this.panel9.Click += new System.EventHandler(this.panel9_Click);
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // panel5
@@ -612,17 +626,6 @@
             // 
             this.timer2.Enabled = true;
             this.timer2.Interval = 1;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.panel6.Location = new System.Drawing.Point(493, 241);
-            this.panel6.Margin = new System.Windows.Forms.Padding(0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(32, 32);
-            this.panel6.TabIndex = 9;
-            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
-            this.panel6.Click += new System.EventHandler(this.panel6_Click);
             // 
             // Form1
             // 
