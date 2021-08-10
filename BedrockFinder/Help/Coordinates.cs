@@ -8,14 +8,13 @@ namespace BedrockFinder
 {
     public class Coordinates
     {
-        int x { get; set; }
-        byte y { get; set; }
-        int z { get; set; }
+        public int x { get; set; }
+        public int z { get; set; }
     }
 
     public class BlockCoord
     {
-        char block { get; set; }
-        Coordinates coordinates { get; set; }
+        public bool block { get; set; }
+        public Coordinates coordinates { get; set; }
     }
 }

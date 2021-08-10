@@ -57,6 +57,7 @@
     </Compile>
     <Compile Include="Grafics\MiddleLocation.cs" />
     <Compile Include="Grafics\SharePath.cs" />
+    <Compile Include="Help\BlockImage.cs" />
     <Compile Include="Help\Coordinates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
